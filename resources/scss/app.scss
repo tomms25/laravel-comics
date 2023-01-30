@@ -1,8 +1,58 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+#logo-header{
+    width: 100px;
+}
 
 
 .my_bg_primary {
-
     background-image: url('/resources/img/jumbotron.jpg');
+    height: 300px;
+    background-size: cover;
+}
 
+ul{
+    list-style: none;
+    font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.my_current{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+.my_current_bg{
+    background-color: #1c1c1c;
+    height: 700px;
+}
+
+.comics_title{
+    color: white;
+    background-color: #1c1c1c;
+}
+
+.single_card{
+    height: 100px;
+}
+
+#second_row{
+    margin-top: 230px;
+}
+
+
+// Footer
+
+.my_ecommerce_bar{
+    background-color: #0182fa;
+}
+
+.size_item{
+    max-width: 20px;
+    height: 30px;
 }
